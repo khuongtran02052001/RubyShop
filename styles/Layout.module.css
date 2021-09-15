@@ -1,0 +1,149 @@
+.headerlayout {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+}
+.TypographyTest {
+    color: black;
+    border-right: 1px solid #e8e8e8;
+    margin-right: 10px;
+    border-right: 1px solid #e8e8e8;
+}
+.hearderItemsRight {
+    display: flex;
+}
+.divContent {
+    background-color: white;
+}
+.divThreeInOne {
+    display: flex;
+    justify-content: space-around;
+}
+.buttonMenu {
+    display: none;
+}
+.divContentItem {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.divFourInOne {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divAbout {
+    position: absolute;
+    display: block;
+    text-align: center;
+    bottom: 40%;
+}
+.footerLayout {
+    text-align: center;
+    border-top: 3px solid #e8e8e8;
+}
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+.MobileMenu {
+    display: none;
+}
+.DivBTN {
+    display: flex;
+    justify-content: center;
+}
+.AVT {
+    font-size: 40px;
+    margin-top: 6px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.BTNAVT {
+    margin-top: 15px;
+}
+.LIHEADER {
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.IMGMARGIN {
+    margin-top: 21px;
+}
+.IMGPRO {
+    position: relative;
+    margin-right: 18px;
+    display: block;
+    text-align: center;
+}
+/* mobile */
+@media screen and (max-width: 46.1875em) {
+    .MobileMenu {
+        display: block;
+        margin-left: 50px;
+    }
+    .hearderItemsRight {
+        display: none;
+    }
+    .ICON {
+        display: none;
+    }
+    .headerlayout {
+        height: 100%;
+    }
+    .AVT {
+        margin-top: 40px;
+    }
+    .BTNAVT {
+        margin-top: 50px;
+    }
+    .LIHEADER {
+        font-size: 10px;
+    }
+    .IMGMARGIN {
+        margin-top: 5px;
+    }
+    .IMGPRO {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .DivBTN {
+        flex-direction: column;
+    }
+    .IMGBTNDOWN {
+        flex-direction: column;
+    }
+    .divAbout {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}

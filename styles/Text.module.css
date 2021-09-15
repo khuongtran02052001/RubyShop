@@ -1,0 +1,72 @@
+@-webkit-keyframes my {
+    0% {
+        color: #f8cd0a;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #f8cd0a;
+    }
+}
+@-moz-keyframes my {
+    0% {
+        color: #f8cd0a;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #f8cd0a;
+    }
+}
+@-o-keyframes my {
+    0% {
+        color: #f8cd0a;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #f8cd0a;
+    }
+}
+@keyframes my {
+    0% {
+        color: #f8cd0a;
+    }
+    50% {
+        color: black;
+    }
+    100% {
+        color: #f80ad0;
+    }
+}
+.test {
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+}
+
+.imgMagnifierContainer {
+    position: relative;
+}
+
+.imgMagnifierGlass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+}
+.kinhlup {
+    position: absolute;
+    width: 100px;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,65 @@
+.buttonANM {
+    padding: 15px 40px;
+    background: #a7a2a259;
+    border: 0;
+    color: black;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    display: block;
+    margin: 100px auto;
+    width: 100%;
+    position: absolute;
+    top: 121px;
+}
+
+.buttonANM::after,
+.buttonANM::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.buttonANM::after {
+    width: 30px;
+    height: 1px;
+    background: black;
+    transform: translateX(-3px);
+    margin-top: 0px;
+}
+
+.buttonANM::before {
+    content: "";
+    transform: rotate(-135deg) translateX(50%);
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: -1px;
+}
+
+.buttonANM:hover {
+    padding: 15px 60px 15px 20px;
+}
+
+.buttonANM:hover::after,
+.buttonANM:hover::before {
+    opacity: 1;
+    right: 15px;
+}
+
+@media screen and (max-width: 46.1875em) {
+    .buttonANM {
+        width: 66%;
+        right: 67px;
+    }
+}

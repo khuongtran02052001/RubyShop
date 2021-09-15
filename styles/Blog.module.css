@@ -1,0 +1,24 @@
+.menuTintuc {
+    margin-top: 50px;
+}
+.divblog1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+@media screen and (max-width: 46.1875em) {
+    .noneClass {
+        display: none;
+    }
+    .text1 {
+        font-size: 17px;
+    }
+    .text2 {
+        font-size: 17px;
+    }
+    .text5 {
+        font-size: 7px;
+    }
+}
